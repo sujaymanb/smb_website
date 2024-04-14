@@ -1,0 +1,7 @@
+design language
+
+The components that contain visible important information, i.e. content, exist within code space exist also in screen space.
+
+Abstrac skeumorphism style 
+If we take the ui elements as part of a terminal  
+We try to make it like look like a depiction of a fictional device.

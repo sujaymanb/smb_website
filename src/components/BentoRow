@@ -1,0 +1,32 @@
+import React from "react";
+import Container from "./Container";
+
+function BentoRow(Bentos) {
+  return (
+
+<FadeIn>
+        <div className="grid gap-x-2 gap-y-2 grid-cols-[1fr_0.7fr] max-mdd:grid-cols-[1fr] grid-rows-[auto] my-2">
+          <div className="flex w-full max-w-[746px] flex-col items-start gap-x-8 gap-y-8 border-4 rounded-md border-[#F2D16D] bg-[#171614] px-12 py-10 max-mdd:max-w-none max-md:p-8">
+            <img
+              src={robot}
+              alt="alt text"
+              className="rounded-md overflow-hidden w-[108px] h-[108px] flex-[0_0_auto]"
+            />
+            <h1 className="max-md:text-[40px] max-md:leading-[48px] max-md:tracking-[-0.01em] text-white">
+              work 1{" "}
+            </h1>
+          </div>
+          <div className="flex flex-col justify-between items-stretch gap-x-8 gap-y-8 rounded-md border-4 border-[#F2D16D] bg-[#171614] text-center p-12 max-md:p-8">
+            <div className="flex flex-col justify-center items-center mb-8 gap-3 max-md:mb-4">
+              <ContactIcon className="w-[112px] h-[112px] flex-[0_0_auto] text-white" />
+              <h2 className="max-md:text-[40px] max-md:leading-[48px] max-md:tracking-[-0.01em] text-white">
+                work 2
+              </h2>
+            </div>
+          </div>
+        </div>
+      </FadeIn>
+
+}
+
+export default Bento;
