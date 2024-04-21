@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        inter: ["Inter", "sans"],
+        atkinson: ['Atkinson\\ Hyperlegible', 'sans-serif'],
+        auger: ['auger-mono', 'monospace'],
       },
       screens: {
         mdd: "991px",
