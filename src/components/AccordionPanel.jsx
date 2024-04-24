@@ -12,7 +12,7 @@ const AccordionPanel = ({ title, company, location, start, end, info }) => {
   const [expanded, setExpanded] = useState(false)
 
   return (
-    <div className='border-2 border-black rounded-md p-2 bg-high-green/30 shadow-md my-2'>
+    <div className='border-b-2 border-primary rounded-md p-2 bg-secondary/10 shadow-md my-4'>
       <div className="flex">
         <div onClick={() => setExpanded(!expanded)} className="basis-1/2 shrink">
           <h2>{company}</h2>
@@ -22,7 +22,7 @@ const AccordionPanel = ({ title, company, location, start, end, info }) => {
           <div className="text-right">{start} - {end}</div>
           <div className="text-right">{location}</div>
         </div>
-        <button className='flex-none bg-emerald-300 shadow-md h-9 rounded-full p-2' onClick={() => setExpanded(!expanded)}>
+        <button className='flex-none rounded-full p-2' onClick={() => setExpanded(!expanded)}>
           {expanded ? <AiOutlineMinus /> : <AiOutlinePlus />}
         </button>
       </div>

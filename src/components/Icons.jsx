@@ -17,69 +17,7 @@ export const ProjectIcon = ({ ...props }) => {
   );
 };
 
-export const VideoIcon = ({ ...props }) => {
-  return (
-    <svg
-      viewBox="0 0 512 512"
-      fill="currentColor"
-      height="1em"
-      width="1em"
-      {...props}
-    >
-      <path
-        fill="none"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={32}
-        d="M374.79 308.78L457.5 367a16 16 0 0022.5-14.62V159.62A16 16 0 00457.5 145l-82.71 58.22A16 16 0 00368 216.3v79.4a16 16 0 006.79 13.08z"
-      />
-      <path
-        fill="none"
-        stroke="currentColor"
-        strokeMiterlimit={10}
-        strokeWidth={32}
-        d="M268 384H84a52.15 52.15 0 01-52-52V180a52.15 52.15 0 0152-52h184.48A51.68 51.68 0 01320 179.52V332a52.15 52.15 0 01-52 52z"
-      />
-    </svg>
-    );
-};
-
-export const LinkedInIcon = ({ ...props }) => {
-  return (
-      <svg class="h-8 w-8 text-black"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />  <rect x="2" y="9" width="4" height="12" />  <circle cx="4" cy="4" r="2" /></svg>
-    );
-};
-
-export const GithubIcon = ({ ...props }) => {
-  return (
-    <svg class="h-8 w-8 text-black"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" /></svg>
-    );
-}
-
-export const ArchiveIcon = ({ ...props }) => {
-  return (
-    <svg class="h-8 w-8 text-black"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"/>
-</svg>
-    );
-}
-
-export const SunIcon = ({ ...props }) => {
-  return (
-    <svg class="h-8 w-8 text-black"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="5" />  <line x1="12" y1="1" x2="12" y2="3" />  <line x1="12" y1="21" x2="12" y2="23" />  <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />  <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />  <line x1="1" y1="12" x2="3" y2="12" />  <line x1="21" y1="12" x2="23" y2="12" />  <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />  <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" /></svg>
-    );
-}
-
-export const LightBulb = ({ ...props }) => {
-  return (
-    <svg class="h-8 w-8 text-black"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
-</svg>
-    );
-}
-
-export const PaperIcon = ({ ...props }) => {
+export const MobileRoboIcon = ({ ...props }) => {
   return (
     <svg
       viewBox="0 0 24 24"
@@ -88,8 +26,166 @@ export const PaperIcon = ({ ...props }) => {
       width="1em"
       {...props}
     >
-      <path fill="none" d="M0 0h24v24H0z" />
-      <path d="M20 22H4a1 1 0 01-1-1V3a1 1 0 011-1h16a1 1 0 011 1v18a1 1 0 01-1 1zM7 6v4h4V6H7zm0 6v2h10v-2H7zm0 4v2h10v-2H7zm6-9v2h4V7h-4z" />
+      <path d="M1 14a5.002 5.002 0 009 3h5.17A3 3 0 0018 19c1.31 0 2.42-.83 2.83-2H23v-2c0-5.5-4.5-10-10-10H1v9m20 1H10.9A5.002 5.002 0 003 10V7h9.5c2.6 0 4.92 1.16 6.5 3h-4v2h5.25c.42.92.67 1.94.75 3M6 11c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3z" />
+    </svg>
+  );
+};
+
+export const RoboArmIcon = ({ ...props }) => {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      height="1em"
+      width="1em"
+      {...props}
+    >
+      <path d="M4 19h4.6L2.62 8.64C2.23 8 2 7.29 2 6.5a3.999 3.999 0 017.87-1H14V3c0-1.1.9-2 2-2v2.59L17.59 2H22v2h-3.59L16 6.41v.18L18.41 9H22v2h-4.41L16 9.41V12a2 2 0 01-2-2V7.5H9.87c-.1.39-.26.76-.46 1.1l6 10.4H20a2 2 0 012 2v1H2v-1c0-1.1.9-2 2-2m3.91-9c-.56.32-1.21.5-1.91.5l4.91 8.5h2.19l-5.19-9M6 4.5a2 2 0 00-2 2c0 1.11.89 2 2 2 1.11 0 2-.89 2-2a2 2 0 00-2-2z" />
+    </svg>
+  );
+};
+
+export const VideoIcon = ({ ...props }) => {
+  return (
+    <svg
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      viewBox="0 0 24 24"
+      height="1em"
+      width="1em"
+      {...props}
+    >
+      <path d="M4 4 H20 A2 2 0 0 1 22 6 V18 A2 2 0 0 1 20 20 H4 A2 2 0 0 1 2 18 V6 A2 2 0 0 1 4 4 z" />
+      <path d="M2 8h20" />
+      <path d="M10 14 A2 2 0 0 1 8 16 A2 2 0 0 1 6 14 A2 2 0 0 1 10 14 z" />
+      <path d="M8 12h8" />
+      <path d="M18 14 A2 2 0 0 1 16 16 A2 2 0 0 1 14 14 A2 2 0 0 1 18 14 z" />
+    </svg>
+    );
+};
+
+export const LinkedInIcon = ({ ...props }) => {
+  return (
+      <svg
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      viewBox="0 0 24 24"
+      height="1em"
+      width="1em"
+      {...props}
+    >
+      <path stroke="none" d="M0 0h24v24H0z" />
+      <path d="M6 4 H18 A2 2 0 0 1 20 6 V18 A2 2 0 0 1 18 20 H6 A2 2 0 0 1 4 18 V6 A2 2 0 0 1 6 4 z" />
+      <path d="M8 11v5M8 8v.01M12 16v-5M16 16v-3a2 2 0 00-4 0" />
+    </svg>
+    );
+};
+
+export const GithubIcon = ({ ...props }) => {
+  return (
+    <svg
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      viewBox="0 0 24 24"
+      height="1em"
+      width="1em"
+      {...props}
+    >
+      <path stroke="none" d="M0 0h24v24H0z" />
+      <path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 00-1.3-3.2 4.2 4.2 0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 00-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 00-.1 3.2A4.6 4.6 0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21" />
+    </svg>
+    );
+}
+
+export const ArchiveIcon = ({ ...props }) => {
+  return (
+    <svg fill="none" viewBox="0 0 15 15" height="1em" width="1em" {...props}>
+      <path
+        fill="currentColor"
+        fillRule="evenodd"
+        d="M3.309 1a1 1 0 00-.894.553L1.053 4.276A.5.5 0 001 4.5V13a1 1 0 001 1h11a1 1 0 001-1V4.5a.5.5 0 00-.053-.224l-1.362-2.723A1 1 0 0011.691 1H3.309zm0 1H7v2H2.309l1-2zM8 4V2h3.691l1 2H8zm-.5 1H13v8H2V5h5.5zm-2 2a.5.5 0 000 1h4a.5.5 0 000-1h-4z"
+        clipRule="evenodd"
+      />
+    </svg>
+  );
+}
+
+export const EyeIcon = ({ ...props }) => {
+  return (
+    <svg
+      viewBox="0 0 16 16"
+      fill="currentColor"
+      height="1em"
+      width="1em"
+      {...props}
+    >
+      <path
+        fill="currentColor"
+        d="M8 3C4.511 3 1.486 5.032 0 8c1.486 2.968 4.511 5 8 5s6.514-2.032 8-5c-1.486-2.968-4.511-5-8-5zm3.945 2.652c.94.6 1.737 1.403 2.335 2.348a7.594 7.594 0 01-2.335 2.348 7.326 7.326 0 01-7.889 0A7.615 7.615 0 011.721 8a7.594 7.594 0 012.52-2.462 4 4 0 107.518 0c.062.037.124.075.185.114zM8 6.5a1.5 1.5 0 11-3.001-.001A1.5 1.5 0 018 6.5z"
+      />
+    </svg>
+  );
+};
+
+export const NoteIcon = ({ ...props }) => {
+  return (
+    <svg
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      viewBox="0 0 24 24"
+      height="1em"
+      width="1em"
+      {...props}
+    >
+      <path stroke="none" d="M0 0h24v24H0z" />
+      <path d="M7 3 H17 A2 2 0 0 1 19 5 V19 A2 2 0 0 1 17 21 H7 A2 2 0 0 1 5 19 V5 A2 2 0 0 1 7 3 z" />
+      <path d="M9 7h6M9 11h6M9 15h4" />
+    </svg>
+  );
+};
+
+export const PaperIcon = ({ ...props }) => {
+  return (
+    <svg
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      viewBox="0 0 24 24"
+      height="1em"
+      width="1em"
+      {...props}
+    >
+      <path d="M4 22h16a2 2 0 002-2V4a2 2 0 00-2-2H8a2 2 0 00-2 2v16a2 2 0 01-2 2zm0 0a2 2 0 01-2-2v-9c0-1.1.9-2 2-2h2M18 14h-8M15 18h-5" />
+      <path d="M10 6h8v4h-8V6z" />
+    </svg>
+  );
+};
+
+export const WheelChairIcon = ({ ...props }) => {
+  return (
+    <svg
+      data-name="Layer 1"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      height="1em"
+      width="1em"
+      {...props}
+    >
+      <path d="M12 6.5a2 2 0 10-2-2 2 2 0 002 2zm7.5 14h-1v-5a1 1 0 00-1-1h-5v-2h5a1 1 0 000-2h-5v-2a1 1 0 00-2 0v7a1 1 0 001 1h5v5a1 1 0 001 1h2a1 1 0 000-2zm-6.8-1.6a4 4 0 01-7.2-2.4 4 4 0 012.4-3.66A1 1 0 107.1 11a6 6 0 107.2 9.1 1 1 0 00-1.6-1.2z" />
     </svg>
   );
 };
@@ -129,11 +225,11 @@ export const ArrowIcon = ({ ...props }) => {
 
 export const LinkIcon = ({ ...props }) => {
   return (
-    <svg width="40" height="40" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve" fill="#000000">
+    <svg width="40" height="40" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve" fill="currentColor">
     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
     <g id="SVGRepo_iconCarrier"> 
-    <path fill="#231F20" d="M61.984,32.527L47.379,24.18C47.742,22.84,48,21.457,48,20c0-8.836-7.164-16-16-16s-16,7.164-16,16 c0,3.672,1.289,7.016,3.371,9.719L0.844,53.543c-1.359,1.746-1.043,4.258,0.699,5.613C2.274,59.727,3.141,60,3.997,60 c1.191,0,2.371-0.531,3.16-1.543L25.652,34.68C27.602,35.523,29.742,36,32,36c4.496,0,8.543-1.867,11.449-4.852l14.566,8.324 c1.918,1.102,4.359,0.426,5.457-1.488C64.572,36.066,63.902,33.625,61.984,32.527z"></path> 
+    <path d="M61.984,32.527L47.379,24.18C47.742,22.84,48,21.457,48,20c0-8.836-7.164-16-16-16s-16,7.164-16,16 c0,3.672,1.289,7.016,3.371,9.719L0.844,53.543c-1.359,1.746-1.043,4.258,0.699,5.613C2.274,59.727,3.141,60,3.997,60 c1.191,0,2.371-0.531,3.16-1.543L25.652,34.68C27.602,35.523,29.742,36,32,36c4.496,0,8.543-1.867,11.449-4.852l14.566,8.324 c1.918,1.102,4.359,0.426,5.457-1.488C64.572,36.066,63.902,33.625,61.984,32.527z"></path> 
     </g>
     </svg>);
 };

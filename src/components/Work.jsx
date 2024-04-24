@@ -5,23 +5,26 @@ import VideoFrame from "./VideoFrame";
 import ScrollBox from "./ScrollBox";
 import PaperLink from "./PaperLink";
 import { FadeIn } from "./FadeIn";
-import { PaperIcon } from "./Icons";
+import { PaperIcon, WheelChairIcon, NoteIcon, VideoIcon, RoboArmIcon, MobileRoboIcon, ProjectIcon } from "./Icons";
 import goal1 from "../assets/tshirt-goal-1.png";
 import ach1 from "../assets/tshirt-ach-1.png";
 import goal2 from "../assets/t-shirt-goal-2.png";
 import ach2 from "../assets/t-shirt-ach-2.png";
 import plas from "../assets/plas.png";
 import LinkButton from "./LinkButton";
-import Experience from "./Experience";
 
 function Work() {
   return (
     <Container id="work">
       <FadeIn>
         <div className="grid gap-2 grid-cols-[60fr_40fr] max-mdd:grid-cols-1 grid-rows-auto my-8">
-          <Bento title="FabricFlowNet" topic="paper">
+          <Bento>
+            <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
+             <RoboArmIcon className="float-start mt-2 mr-2"/>
+             FabricFlowNet
+            </h1>
             <div>
-              <h2 className="text-emerald-100">Bimanual Cloth Manipulation with a Flow-based Policy</h2>
+              <h2 className="text-primary">Bimanual Cloth Manipulation with a Flow-based Policy</h2>
               <ScrollBox size="sm">
                 <p>
                   A method for goal-directed cloth manipulation, a challenging task due to 
@@ -42,19 +45,19 @@ function Work() {
                 </p>
               </ScrollBox>
             </div>
-            <div className="flex justify-center py-6 space-x-6">
+            <div className="flex self-center space-x-6 mt-2">
               <LinkButton url="https://sites.google.com/view/fabricflownet">
                 FabricFlowNet site
               </LinkButton>
               <LinkButton url="https://arxiv.org/abs/2111.05623">
-                <PaperIcon className="w-[20px] h-[20px] flex-[0_0_auto]" />
+                <PaperIcon className="w-[20px] h-[20px] flex-[0_0_auto] mr-2" />
                 arXiv:2111.05623 [cs.RO]
               </LinkButton>
             </div>
           </Bento>
           <div className="grid gap-2 grid-cols-auto grid-rows-2">
             <Bento topic="video">
-              <div className="border-2 rounded-lg overflow-hidden border-black grid grid-rows-1 grid-flow-col gap-2">
+              <div className="border-2 rounded-lg overflow-hidden border-primary grid grid-rows-1 grid-flow-col gap-2">
                 <div className="space-y-2">
                   <div className="relative">
                     <img className="overflow-hidden h-[80px] flex-[0_0_auto]" src={goal1} alt="goal 1"/>
@@ -71,7 +74,7 @@ function Work() {
               </div>
             </Bento>
             <Bento topic="video">
-              <div className="border-2 rounded-lg overflow-hidden border-black grid grid-rows-1 grid-flow-col gap-2">
+              <div className="border-2 rounded-lg overflow-hidden border-primary grid grid-rows-1 grid-flow-col gap-2">
                 <div className="space-y-2">
                   <div className="relative">
                     <img className="overflow-hidden h-[80px] flex-[0_0_auto]" src={goal2} alt="goal 2"/>
@@ -90,10 +93,14 @@ function Work() {
           </div>
         </div>
         <div className="grid gap-2 grid-cols-[0.5fr_0.5fr] max-mdd:grid-cols-[1fr] grid-rows-[auto] my-8">
-          <Bento title="PLAS" topic="paper">
-            <h2 className="text-emerald-100">Latent Action Space for Offline Reinforcement Learning</h2>
+          <Bento>
+            <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
+              <PaperIcon className="float-start mt-2 mr-2"/>
+              PLAS
+            </h1>
+            <h2 className="text-primary">Latent Action Space for Offline Reinforcement Learning</h2>
             <div>
-              <img className="rounded-sm my-2 border-2 border-black" src={plas} alt="PLAS overview"/>
+              <img className="rounded-sm my-2 border-2 border-primary" src={plas} alt="PLAS overview"/>
             </div>
             <ScrollBox size="sm">
               <p>
@@ -114,17 +121,21 @@ function Work() {
               reinforcement learning methods with explicit constraints
               </p>
             </ScrollBox>
-          <div className="flex justify-center py-6 space-x-6">
+          <div className="flex justify-center space-x-6 self-center mt-2">
             <LinkButton url="https://sites.google.com/view/latent-policy">
               PLAS site
             </LinkButton>
             <LinkButton url="https://arxiv.org/abs/2011.07213">
-              <PaperIcon className="w-[20px] h-[20px] flex-[0_0_auto]" />
+              <PaperIcon className="w-[20px] h-[20px] flex-[0_0_auto] mr-2" />
               arXiv:2011.07213 [cs.RO]
             </LinkButton>
           </div>
           </Bento>
-          <Bento title="Learning cloth sliding using tactile sensing" topic="project">
+          <Bento>
+            <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
+              <RoboArmIcon className="float-start mt-2 mr-2"/>
+              Learning Cloth Sliding Using Tactile Perception
+            </h1>
             <ScrollBox size="sm">
               <p>
               In previous works, tactile sensing has been mainly used in manipulation to get 
@@ -146,15 +157,18 @@ function Work() {
               to get to the end of the cloth. The policy is trained on real robot using TD3.
               </p>
             </ScrollBox>
-            <div className="overflow-hidden rounded-md">
+            <div className="overflow-hidden rounded-md self-center mt-4 border-primary border-2">
               <VideoFrame url="https://www.youtube.com/embed/BCk0LQ08qsQ"/>
             </div>
           </Bento>
         </div>
         <div className="grid gap-2 grid-cols-[0.40fr_0.60fr] max-mdd:grid-cols-[1fr] grid-rows-[auto] my-8">
-          <Bento
-            title="Delivery Robot" topic="paper">
-            <h2 className="text-emerald-100">Augmenting Knowledge through Statistical, Goal-oriented Human-Robot Dialog</h2>
+          <Bento>
+            <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
+              <MobileRoboIcon className="float-start mt-2 mr-2"/>
+              Delivery Robot
+            </h1>
+            <h2 className="text-primary">Intention Estimation through Statistical, Goal-oriented Human-Robot Dialog</h2>
             <ScrollBox size="sm">
             <p>
               Some robots can interact with humans using natural language, and identify 
@@ -167,20 +181,24 @@ function Work() {
               human participants through MTurk and real-robot platforms. 
             </p>
             </ScrollBox>
-            <div className="overflow-hidden rounded-md">
+            <div className="overflow-hidden rounded-md self-center mt-4 border-primary border-2">
               <VideoFrame url="https://www.youtube.com/embed/DFB3jbHBqYE"/>
             </div>
-            <div className="flex justify-center my-4">
+            <div className="flex justify-center mt-8 self-center">
               <LinkButton url="https://arxiv.org/abs/1907.03390">
-                <PaperIcon className="w-[20px] h-[20px] flex-[0_0_auto]" />
+                <PaperIcon className="w-[20px] h-[20px] flex-[0_0_auto] mr-2" />
                 arXiv:1907.03390 [cs.RO]
               </LinkButton>
             </div>
           </Bento>
           <div className="grid gap-2 grid-cols-auto grid-rows-2">
-            <Bento title="Autonomous Meal Assistance Robot" topic="project">
-              <div className="flex flex-row items-center space-x-2">
-                <div className="shrink basis-1/2">
+            <Bento>
+              <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
+                <WheelChairIcon className="float-start mt-2 mr-2"/>
+                Autonomous Meal Assistance Robot
+              </h1>
+              <div className="columns-1 md:columns-2">
+                <div>
                   <ScrollBox size="sm">
                     <p>
                       Robotic arms used for meal assistance can help improve autonomy and quality 
@@ -206,14 +224,18 @@ function Work() {
                     </p>
                   </ScrollBox>
                 </div>
-                <div className="grow basis-1/2 overflow-hidden rounded-md">
+                <div className="mt-4 overflow-hidden rounded-md border-primary border-2">
                   <VideoFrame url="https://www.youtube.com/embed/kkbPEdshNx8"/>
                 </div>
               </div>
             </Bento>
-            <Bento title="UAV-UGV Collaboration" topic="project">
-              <div className="flex flex-row items-center space-x-2">
-                <div className="shrink basis-1/2">
+            <Bento>
+              <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
+                <NoteIcon className="float-start mt-2 mr-2"/>
+                UAV-UGV Collaboration
+              </h1>
+              <div className="columns-1 md:columns-2">
+                <div>
                   <ScrollBox size="sm">
                     <p>
                       Implemented autonomous UAV landing on UGV platform using vision.  
@@ -222,7 +244,7 @@ function Work() {
                     </p>
                   </ScrollBox>
                 </div>
-                <div className="grow basis-1/2 overflow-hidden rounded-md">
+                <div className="overflow-hidden rounded-md border-primary border-2">
                   <VideoFrame url="https://www.youtube.com/embed/NZQ-CGzPjCY"/>
                 </div>
               </div>

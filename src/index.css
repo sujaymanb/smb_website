@@ -1,15 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  font-family: "Atkinson Hyperlegible", sans-serif;
-  background-color: #2ad78a;
-  color: black;
+  font-family: "nitti-grotesk-light", sans-serif;
   font-size: 20px;
-  line-height: 28px;
-  font-weight: 400;
+  line-height: 32px;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -18,9 +15,9 @@ h1 {
   margin-bottom: 0px;
   font-size: 32px;
   line-height: 48px;
-  font-weight: 600;
-  font-family: auger-mono, monospace;
-  font-style: normal;
+  font-weight: 900;
+  font-family: mundial, sans-serif;
+  font-style: bold;
 }
 
 h2 {
@@ -36,7 +33,7 @@ h3 {
   margin-bottom: 0px;
   font-size: 48px;
   line-height: 56px;
-  font-weight: 500;
+  font-weight: 900;
 }
 
 h5 {
@@ -53,7 +50,6 @@ h5 {
 
 .headername {
   font-family: unibody-8-new, sans-serif;
-  font-style: italic;
 }
 
 .atkinson-hyperlegible-regular {

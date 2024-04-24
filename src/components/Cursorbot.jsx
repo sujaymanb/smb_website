@@ -27,8 +27,8 @@ const Cursorbot = () => {
     width: 1000,
     height: 1000,
     filter: ' blur(75px)',
-    backgroundColor: 'rgb(255, 67, 75)',
-    background: 'conic-gradient(#ff7b00, #00a6fb)',
+    backgroundColor: 'rgb(214, 201, 201)',// 'rgb(255, 67, 75)',
+    background: 'conic-gradient("#C7D3DD", "#77B6EA")',
     opacity: 0.33,
     zIndex: -1000,
   };
