@@ -12,13 +12,13 @@ const AccordionPanel = ({ title, company, location, start, end, info }) => {
   const [expanded, setExpanded] = useState(false)
 
   return (
-    <div className='border-b-2 border-primary rounded-md p-2 bg-secondary/10 shadow-md my-4'>
+    <div className='border-b-2 border-l-2 border-l-primary border-back hover:border-primary p-2 my-4'>
       <div className="flex">
-        <div onClick={() => setExpanded(!expanded)} className="basis-1/2 shrink">
+        <div onClick={() => setExpanded(!expanded)} className="basis-1/2 shrink text-sm">
           <h2>{company}</h2>
-          <p>{title}</p>
+          {title}
         </div>
-        <div className="grow min-w-100 basis-1/4 px-2">
+        <div className="grow min-w-100 basis-1/4 px-2 text-sm">
           <div className="text-right">{start} - {end}</div>
           <div className="text-right">{location}</div>
         </div>

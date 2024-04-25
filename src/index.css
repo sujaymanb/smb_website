@@ -3,75 +3,66 @@
 @tailwind utilities;
 
 body {
-  font-family: "nitti-grotesk-light", sans-serif;
+  font-family: "config-variable", sans-serif;
   font-size: 20px;
   line-height: 32px;
-  font-weight: 500;
-  font-style: normal;
+  font-variation-settings: "slnt" 0, "wght" 300, "wdth" 100;
+}
+
+a {
+  font-family: "nitti-typewriter-normal", sans-serif;
 }
 
 h1 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 32px;
+  font-family: "nitti-typewriter-normal", sans-serif;
+  font-size: 36px;
   line-height: 48px;
   font-weight: 900;
-  font-family: mundial, sans-serif;
-  font-style: bold;
+  font-style: normal;
 }
 
 h2 {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  font-family: "config-variable", sans-serif;
   font-size: 24px;
+  margin-top: 4px;
   line-height: 28px;
-  font-weight: 400;
+  font-variation-settings: "slnt" 0, "wght" 300, "wdth" 100;
 }
 
 h3 {
-  margin-top: 0px;
-  margin-bottom: 0px;
   font-size: 48px;
   line-height: 56px;
   font-weight: 900;
 }
 
 h5 {
-    margin-top: 0px;
-    margin-bottom: 0px;
     font-size: 32px;
     line-height: 40px;
     font-weight: 500;
 }
 
-.navbar {
-  font-family: auger-mono, monospace;
+.geminis {
+  font-family: bd-geminis, sans-serif;
 }
 
-.headername {
-  font-family: unibody-8-new, sans-serif;
+.fractul {
+  font-family: "fractul-variable", sans-serif;
+  font-variation-settings: "wght" 400;
+}
+
+.config {
+  font-family: "config-variable", sans-serif;
+  font-variation-settings: "slnt" 0, "wght" 100, "wdth" 50;
+}
+
+.nitti-typewriter {
+  font-family: nitti-typewriter-normal, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .atkinson-hyperlegible-regular {
   font-family: "Atkinson Hyperlegible", sans-serif;
   font-weight: 400;
   font-style: normal;
-}
-
-.atkinson-hyperlegible-bold {
-  font-family: "Atkinson Hyperlegible", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.atkinson-hyperlegible-regular-italic {
-  font-family: "Atkinson Hyperlegible", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.atkinson-hyperlegible-bold-italic {
-  font-family: "Atkinson Hyperlegible", sans-serif;
-  font-weight: 700;
-  font-style: italic;
 }

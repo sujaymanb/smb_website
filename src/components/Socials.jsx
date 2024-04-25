@@ -31,12 +31,12 @@ const socialData = [
 
 function Socials() {
   return (
-    <div className="flex overflow-hidden justify-center items-center gap-4 p-4 max-md:grid max-md:auto-cols-[1fr] max-md:gap-x-2 max-md:gap-y-2 max-md:grid-cols-[1fr_1fr] max-md:grid-rows-[auto_auto]">
+    <div className="overflow-hidden justify-center my-4 max-md:grid max-md:auto-cols-[1fr] max-md:gap-x-2 max-md:gap-y-2 max-md:grid-cols-[1fr_1fr] max-md:grid-rows-[auto_auto]">
       {socialData.map((social) => (
-        <div className="grow">
+        <div className="">
           <div>
             <a href={social.link}
-              className="border-2 border-b-4 border-primary rounded-md px-2 bg-secondary/10 hover:bg-key hover:text-primary text-primary flex min-h-[56px] items-center transition-[background-color] duration-300 ease-[ease-out] text-lg text-center">
+              className="px-2 hover:bg-brand hover:text-back text-primary flex items-center transition-[background-color] duration-150 ease-[ease-out] text-lg text-center">
               <div>{social.icon}</div>
               <div className="text-center px-2">{social.name}</div>
             </a>

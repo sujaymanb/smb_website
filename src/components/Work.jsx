@@ -17,10 +17,10 @@ function Work() {
   return (
     <Container id="work">
       <FadeIn>
-        <div className="grid gap-2 grid-cols-[60fr_40fr] max-mdd:grid-cols-1 grid-rows-auto my-8">
+        <div className="grid gap-8 grid-cols-[60fr_40fr] max-mdd:grid-cols-1 grid-rows-auto my-8">
           <Bento>
             <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
-             <RoboArmIcon className="float-start mt-2 mr-2"/>
+             <NoteIcon className="float-start mt-2 mr-2"/>
              FabricFlowNet
             </h1>
             <div>
@@ -47,6 +47,7 @@ function Work() {
             </div>
             <div className="flex self-center space-x-6 mt-2">
               <LinkButton url="https://sites.google.com/view/fabricflownet">
+                <NoteIcon className="w-[20px] h-[20px] flex-[0_0_auto] mr-2" />
                 FabricFlowNet site
               </LinkButton>
               <LinkButton url="https://arxiv.org/abs/2111.05623">
@@ -55,9 +56,9 @@ function Work() {
               </LinkButton>
             </div>
           </Bento>
-          <div className="grid gap-2 grid-cols-auto grid-rows-2">
+          <div className="grid grid-cols-auto grid-rows-2 gap-y-6">
             <Bento topic="video">
-              <div className="border-2 rounded-lg overflow-hidden border-primary grid grid-rows-1 grid-flow-col gap-2">
+              <div className="grid grid-rows-1 grid-flow-col gap-2">
                 <div className="space-y-2">
                   <div className="relative">
                     <img className="overflow-hidden h-[80px] flex-[0_0_auto]" src={goal1} alt="goal 1"/>
@@ -74,7 +75,7 @@ function Work() {
               </div>
             </Bento>
             <Bento topic="video">
-              <div className="border-2 rounded-lg overflow-hidden border-primary grid grid-rows-1 grid-flow-col gap-2">
+              <div className="grid grid-rows-1 grid-flow-col gap-2">
                 <div className="space-y-2">
                   <div className="relative">
                     <img className="overflow-hidden h-[80px] flex-[0_0_auto]" src={goal2} alt="goal 2"/>
@@ -92,15 +93,15 @@ function Work() {
             </Bento>
           </div>
         </div>
-        <div className="grid gap-2 grid-cols-[0.5fr_0.5fr] max-mdd:grid-cols-[1fr] grid-rows-[auto] my-8">
+        <div className="grid gap-8 grid-cols-[0.5fr_0.5fr] max-mdd:grid-cols-[1fr] grid-rows-[auto] my-8">
           <Bento>
             <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
-              <PaperIcon className="float-start mt-2 mr-2"/>
+              <NoteIcon className="float-start mt-2 mr-2"/>
               PLAS
             </h1>
             <h2 className="text-primary">Latent Action Space for Offline Reinforcement Learning</h2>
             <div>
-              <img className="rounded-sm my-2 border-2 border-primary" src={plas} alt="PLAS overview"/>
+              <img className="my-2" src={plas} alt="PLAS overview"/>
             </div>
             <ScrollBox size="sm">
               <p>
@@ -123,6 +124,7 @@ function Work() {
             </ScrollBox>
           <div className="flex justify-center space-x-6 self-center mt-2">
             <LinkButton url="https://sites.google.com/view/latent-policy">
+              <NoteIcon className="w-[20px] h-[20px] flex-[0_0_auto] mr-2" />
               PLAS site
             </LinkButton>
             <LinkButton url="https://arxiv.org/abs/2011.07213">
@@ -133,8 +135,8 @@ function Work() {
           </Bento>
           <Bento>
             <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
-              <RoboArmIcon className="float-start mt-2 mr-2"/>
-              Learning Cloth Sliding Using Tactile Perception
+              <NoteIcon className="float-start mt-2 mr-2"/>
+              Cloth Sliding with Tactile Perception
             </h1>
             <ScrollBox size="sm">
               <p>
@@ -157,15 +159,15 @@ function Work() {
               to get to the end of the cloth. The policy is trained on real robot using TD3.
               </p>
             </ScrollBox>
-            <div className="overflow-hidden rounded-md self-center mt-4 border-primary border-2">
+            <div className="self-center mt-4">
               <VideoFrame url="https://www.youtube.com/embed/BCk0LQ08qsQ"/>
             </div>
           </Bento>
         </div>
-        <div className="grid gap-2 grid-cols-[0.40fr_0.60fr] max-mdd:grid-cols-[1fr] grid-rows-[auto] my-8">
+        <div className="grid gap-8 grid-cols-[0.40fr_0.60fr] max-mdd:grid-cols-[1fr] grid-rows-[auto] my-8">
           <Bento>
             <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
-              <MobileRoboIcon className="float-start mt-2 mr-2"/>
+              <NoteIcon className="float-start mt-2 mr-2"/>
               Delivery Robot
             </h1>
             <h2 className="text-primary">Intention Estimation through Statistical, Goal-oriented Human-Robot Dialog</h2>
@@ -181,7 +183,7 @@ function Work() {
               human participants through MTurk and real-robot platforms. 
             </p>
             </ScrollBox>
-            <div className="overflow-hidden rounded-md self-center mt-4 border-primary border-2">
+            <div className="self-center mt-4">
               <VideoFrame url="https://www.youtube.com/embed/DFB3jbHBqYE"/>
             </div>
             <div className="flex justify-center mt-8 self-center">
@@ -191,11 +193,11 @@ function Work() {
               </LinkButton>
             </div>
           </Bento>
-          <div className="grid gap-2 grid-cols-auto grid-rows-2">
+          <div className="grid gap-8 grid-cols-auto grid-rows-2">
             <Bento>
               <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
-                <WheelChairIcon className="float-start mt-2 mr-2"/>
-                Autonomous Meal Assistance Robot
+                <NoteIcon className="float-start mt-2 mr-2"/>
+                Meal Assistance Robot
               </h1>
               <div className="columns-1 md:columns-2">
                 <div>
@@ -224,7 +226,7 @@ function Work() {
                     </p>
                   </ScrollBox>
                 </div>
-                <div className="mt-4 overflow-hidden rounded-md border-primary border-2">
+                <div className="mt-4">
                   <VideoFrame url="https://www.youtube.com/embed/kkbPEdshNx8"/>
                 </div>
               </div>
@@ -244,7 +246,7 @@ function Work() {
                     </p>
                   </ScrollBox>
                 </div>
-                <div className="overflow-hidden rounded-md border-primary border-2">
+                <div>
                   <VideoFrame url="https://www.youtube.com/embed/NZQ-CGzPjCY"/>
                 </div>
               </div>
