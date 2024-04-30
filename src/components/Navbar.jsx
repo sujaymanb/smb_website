@@ -24,7 +24,7 @@ function Navbar() {
     <div>
       <FadeIn>
         <div className="flex max-w-[1240px] justify-between max-sm:justify-center mx-auto max-lg:mx-2 mt-6 z-50">
-          <span className="font-typewriter text-lg text-primary">
+          <span className="leading-6 mx-6 font-typewriter text-lg text-primary">
             SUJAY BAJRACHARYA
           </span>
           <div className="flex justify-end gap-y-8 max-md:gap-3 max-sm:hidden z-50">

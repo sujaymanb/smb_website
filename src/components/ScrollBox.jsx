@@ -9,7 +9,7 @@ function ScrollBox({size, children}) {
   return (
       <div className="my-4">
         <div className={`${sizeVariants[size]} ...`}>
-          <div className="oldstyle-nums">
+          <div className="text-justify">
           { children }
           </div>
         </div>

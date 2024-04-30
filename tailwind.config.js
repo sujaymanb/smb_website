@@ -5,7 +5,6 @@ export default {
     extend: {
       fontFamily: {
         nitti: ['nitti-grotesk-light', 'sans-serif'],
-        geminis: ['bd-geminis', 'sans-serif'],
         typewriter: ['nitti-typewriter-normal', 'monospace']
       },
       screens: {

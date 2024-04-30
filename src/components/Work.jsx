@@ -19,10 +19,12 @@ function Work() {
       <FadeIn>
         <div className="grid gap-8 grid-cols-[60fr_40fr] max-mdd:grid-cols-1 grid-rows-auto my-8">
           <Bento>
-            <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
-             <NoteIcon className="float-start mt-2 mr-2"/>
-             FabricFlowNet
-            </h1>
+            <div className="w-full bg-emerald-300">
+              <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
+               <NoteIcon className="float-start mt-2 mr-2"/>
+               FabricFlowNet
+              </h1>
+            </div>
             <div>
               <h2 className="text-primary">Bimanual Cloth Manipulation with a Flow-based Policy</h2>
               <ScrollBox size="sm">
@@ -95,10 +97,12 @@ function Work() {
         </div>
         <div className="grid gap-8 grid-cols-[0.5fr_0.5fr] max-mdd:grid-cols-[1fr] grid-rows-[auto] my-8">
           <Bento>
-            <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
-              <NoteIcon className="float-start mt-2 mr-2"/>
-              PLAS
-            </h1>
+            <div className="w-full bg-amber-300">
+              <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
+                <NoteIcon className="float-start mt-2 mr-2"/>
+                PLAS
+              </h1>
+            </div>
             <h2 className="text-primary">Latent Action Space for Offline Reinforcement Learning</h2>
             <div>
               <img className="my-2" src={plas} alt="PLAS overview"/>
@@ -134,10 +138,12 @@ function Work() {
           </div>
           </Bento>
           <Bento>
-            <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
-              <NoteIcon className="float-start mt-2 mr-2"/>
-              Cloth Sliding with Tactile Perception
-            </h1>
+            <div className="w-full bg-fuchsia-300">
+              <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
+                <NoteIcon className="float-start mt-2 mr-2"/>
+                Cloth Sliding with Tactile Perception
+              </h1>
+            </div>
             <ScrollBox size="sm">
               <p>
               In previous works, tactile sensing has been mainly used in manipulation to get 
@@ -166,10 +172,12 @@ function Work() {
         </div>
         <div className="grid gap-8 grid-cols-[0.40fr_0.60fr] max-mdd:grid-cols-[1fr] grid-rows-[auto] my-8">
           <Bento>
-            <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
-              <NoteIcon className="float-start mt-2 mr-2"/>
-              Delivery Robot
-            </h1>
+            <div className="w-full bg-indigo-300">
+              <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
+                <NoteIcon className="float-start mt-2 mr-2"/>
+                Delivery Robot
+              </h1>
+            </div>
             <h2 className="text-primary">Intention Estimation through Statistical, Goal-oriented Human-Robot Dialog</h2>
             <ScrollBox size="sm">
             <p>
@@ -195,10 +203,12 @@ function Work() {
           </Bento>
           <div className="grid gap-8 grid-cols-auto grid-rows-2">
             <Bento>
-              <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
-                <NoteIcon className="float-start mt-2 mr-2"/>
-                Meal Assistance Robot
-              </h1>
+              <div className="w-full bg-orange-300">
+                <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
+                  <NoteIcon className="float-start mt-2 mr-2"/>
+                  Meal Assistance Robot
+                </h1>
+              </div>
               <div className="columns-1 md:columns-2">
                 <div>
                   <ScrollBox size="sm">
@@ -232,10 +242,12 @@ function Work() {
               </div>
             </Bento>
             <Bento>
-              <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
-                <NoteIcon className="float-start mt-2 mr-2"/>
-                UAV-UGV Collaboration
-              </h1>
+              <div className="w-full bg-rose-300">
+                <h1 className="max-md:text-[40px] max-md:leading-[48px] text-primary">
+                  <NoteIcon className="float-start mt-2 mr-2"/>
+                  UAV-UGV Collaboration
+                </h1>
+              </div>
               <div className="columns-1 md:columns-2">
                 <div>
                   <ScrollBox size="sm">
@@ -254,6 +266,32 @@ function Work() {
           </div>
         </div>
       </FadeIn>
+
+      {/*<h1>Other Projects</h1>
+      <div className="grid grid-cols-auto grid-flow-col gap-4 p-2 w-full overflow-x-auto h-max-[250px]">
+        <div className="w-[200px] h-[200px] border-2 border-black my-4 p-4 bg-indigo-300">
+          <h2>MindWeb (coming soon)</h2>
+        </div>
+        <div className="w-[200px] h-[200px] border-2 border-black my-4 p-4 bg-fuchsia-300">
+          <h2>VLM Nutrition Tracker</h2>
+          Uses a Multimodal Language model with vision capability to estimate the nutrition content of food in given image.
+        </div>
+        <div className="w-[200px] h-[200px] border-2 border-black my-4 p-4 bg-emerald-300">
+          <h2>Clutter Object Detection</h2>
+          Implementation of Robotic pick-and-place of novel objects in clutter with multi-affordance grasping and cross-domain image matching by Zeng Et Al
+        </div>
+        <div className="w-[200px] h-[200px] border-2 border-black my-4 p-4 bg-amber-300">
+          <h2>Barrett 7DOF</h2>
+          Kinematics and Dynamics of Barrett Arm in MATLAB
+        </div>
+        <div className="w-[200px] h-[200px] border-2 border-black my-4 p-4 bg-rose-300">
+          <h2>Sawyer WSG MoveIt</h2>
+          Move It Code for Sawyer Robot Arm with WSG Tactile Sensor Gripper
+        </div>
+        <div className="w-[200px] h-[200px] border-2 border-black my-4 p-4 bg-yellow-300">
+          <h2>test 6</h2>
+        </div>
+      </div>*/}
     </Container>
   );
 }

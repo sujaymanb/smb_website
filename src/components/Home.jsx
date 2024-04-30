@@ -2,6 +2,7 @@ import React from "react";
 import Container from "./Container";
 import headshot from "../assets/sujay_p.svg";
 import eye from "../assets/eye.svg";
+import sphere from "../assets/GradientSphere.svg"
 import { LinkIcon } from "./Icons";
 import { FadeIn } from "./FadeIn";
 import Socials from "./Socials";
@@ -14,11 +15,11 @@ function Home() {
           <div className="relative overflow-hidden flex w-full max-w-[746px] px-12 py-10 max-mdd:max-w-none max-md:p-8 text-secondary bg-gradient-to-bl from-bggradst/50 from-10% to-bggradend/30 to-90%"> 
             <div>
               <img
-                src={eye}
+                src={sphere}
                 alt="sujay m b"
                 className="overflow-hidden w-[108px] h-[108px] mb-4"
               />
-              <h1 className="font-auger">
+              <h1 className="font-typewriter">
                   <span className="text-brand text-[48px]">SUJAY M B</span><br/>
                   <span>ROBOTICS</span><br/>
                   <span>MACHINE LEARNING</span><br/>
@@ -56,7 +57,7 @@ function Home() {
       </FadeIn>
       <FadeIn>
         <div className="flex w-full flex-col items-start gap-x-8 gap-y-8 px-12 py-10 max-mdd:max-w-none max-md:p-8">
-          <h3 className="font-mundial">
+          <h3 className="font-typewriter">
             explore {" "}
             <span className="text-brand">
               {" "}

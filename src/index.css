@@ -3,14 +3,13 @@
 @tailwind utilities;
 
 body {
-  font-family: "config-variable", sans-serif;
-  font-size: 20px;
-  line-height: 32px;
-  font-variation-settings: "slnt" 0, "wght" 300, "wdth" 100;
+  font-family: "nitti-grotesk-light", "helvetica", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 a {
-  font-family: "nitti-typewriter-normal", sans-serif;
+  font-family: "nitti-typewriter-normal", monospace;
 }
 
 h1 {
@@ -22,11 +21,10 @@ h1 {
 }
 
 h2 {
-  font-family: "config-variable", sans-serif;
+  font-family: "nitti-typewriter-normal", sans-serif;
   font-size: 24px;
   margin-top: 4px;
-  line-height: 28px;
-  font-variation-settings: "slnt" 0, "wght" 300, "wdth" 100;
+  line-height: 32px;
 }
 
 h3 {
@@ -41,28 +39,8 @@ h5 {
     font-weight: 500;
 }
 
-.geminis {
-  font-family: bd-geminis, sans-serif;
-}
-
-.fractul {
-  font-family: "fractul-variable", sans-serif;
-  font-variation-settings: "wght" 400;
-}
-
-.config {
-  font-family: "config-variable", sans-serif;
-  font-variation-settings: "slnt" 0, "wght" 100, "wdth" 50;
-}
-
 .nitti-typewriter {
   font-family: nitti-typewriter-normal, sans-serif;
   font-style: normal;
   font-weight: 400;
-}
-
-.atkinson-hyperlegible-regular {
-  font-family: "Atkinson Hyperlegible", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }

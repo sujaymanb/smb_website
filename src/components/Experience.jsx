@@ -61,7 +61,9 @@ const data = [
     start: '',
     end: 'Jun 2018',
     info: [
-      '',
+      'Assisted CS students with Systems Programming, Data Structures and Algorithms and Introduction to programming',
+      'Organized office hours environment to promote productivity and learning',
+      'Guided students with C and Java programming and debugging',
       ]
   },
 ];
