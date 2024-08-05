@@ -20,12 +20,12 @@ const socialData = [
   {
     icon: <NoteIcon/>,
     name: "resume",
-    link: "#",
+    link: "https://drive.google.com/file/d/1B6zQKwkTylhseGlDt2X7CLQSfEgqX1b4/view?usp=sharing",
   },
   {
     icon: <EyeIcon/>,
-    name: "i n s i g h t",
-    link: "#",
+    name: "music",
+    link: "https://soundcloud.com/fossileater",
   }
 ];
 
